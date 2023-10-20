@@ -40,7 +40,7 @@
   <main class="main">
 
     <section class="promo">
-      <div class="container">
+      <div class="container promo__container">
         <h1 class="promo__title">
           Заголовок c уникальным торговым предложение по системе 4U
         </h1>
@@ -49,66 +49,67 @@
           несколько абзацев более менее осмысленного текста рыбы на русском
           языке, а начинающему.
         </p>
-        <a class="promo__link" href="#advantages">Подробнее</a>
+        <a class="promo__btn" href="#advantages">Подробнее</a>
       </div>
     </section>
 
-    <section class="advantages" id="advantages">
-      <div class="container">
-        <h2 class="advantages__title">
-          Уникальный заголовок для преимущества компании
-        </h2>
-        <p class="advantages__subtitle">О нас</p>
-        <p class="advantages__description">
-          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-          сгенерировать несколько абзацев более менее осмысленного текста рыбы
-          на русском языке, а начинающему оратору отточить.
-        </p>
+    <section class="section advantages" id="advantages">
+      <div class="container advantages__container">
+
+        <div class="advantages__content">
+          <h2 class="section__title advantages__title">
+            Уникальный заголовок для преимущества компании
+          </h2>
+          <p class="section__subtitle advantages__subtitle">О нас</p>
+          <p class="advantages__description">
+            Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
+            сгенерировать несколько абзацев более менее осмысленного текста рыбы
+            на русском языке, а начинающему оратору отточить.
+          </p>
+        </div>
 
         <ul class="advantages__list">
           <li class="advantages__item">
-            <span class="advantages__content">1</span>
+            <span class="advantages__num">1</span>
             Первое целевое преимущество
           </li>
           <li class="advantages__item">
-            <span class="advantages__content">2</span>
+            <span class="advantages__num">2</span>
             Второе целевое преимущество
           </li>
           <li class="advantages__item">
-            <span class="advantages__content">3</span>
+            <span class="advantages__num">3</span>
             Третье целевое преимущество
           </li>
           <li class="advantages__item">
-            <span class="advantages__content">4</span>
+            <span class="advantages__num">4</span>
             Четвертое целевое преимущество
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="faq">
-      <div class="container">
-        <h2 class="faq__title">Остались вопросы?</h2>
-        <p class="faq__subtitle">
+    <section class="section contact">
+      <div class="container contact__container">
+        <h2 class="section__title contact__title">Остались вопросы?</h2>
+        <p class="section__subtitle contact__subtitle">
           Оставьте номер телефона, и мы перезвоним вам
         </p>
 
-        <form class="faq__form form">
-          <label class="form__lable">
-            <input class="form__input" type="text" placeholder="Ваше имя">
-          </label>
-          <label class="form__lable">
-            <input class="form__input" type="tel" placeholder="Телефон">
-          </label>
-          <label class="form__lable">
-            <input class="form__input" type="email" placeholder="E-mail">
-          </label>
+        <form class="contact__form form">
 
-          <button type="submit">позвоните мне</button>
+          <fieldset class="form__fieldset">
+            <input class="form__input" type="text" placeholder="Ваше имя">
+            <input class="form__input" type="tel" placeholder="Телефон">
+            <input class="form__input" type="email" placeholder="E-mail">
+          </fieldset>
+
+          <button class="form__btn" type="submit">позвоните мне</button>
 
           <p class="form__politic">
-            Я даю своё <a class="faq__link" href="#!">согласие</a> на обработку
-            моих персональных данных.
+            Я даю своё <a class="form__link" href="#!"><span
+                class="form__link-check">согласие</span></a>
+            на обработку моих персональных данных.
           </p>
         </form>
       </div>

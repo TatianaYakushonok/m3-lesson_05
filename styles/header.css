@@ -1,12 +1,13 @@
 .header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 999;
   padding: 40px 0;
   color: #fff;
-  background-image: url('../img/bg-promo.jpg');
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: rgba(47, 50, 75, 0.85);
-  background-blend-mode: multiply;
+  background-color: transparent;
 }
 
 .header__container {
