@@ -64,6 +64,7 @@ a {
 button {
   border: none;
   outline: none;
+  color: inherit;
   background-color: transparent;
 }
 
@@ -86,7 +87,22 @@ p {
 }
 
 .container {
-  max-width: 1260px;
-  padding: 0 30px;
+  --width-container: 1260px;
+  --padding-container: 30px;
+  max-width: calc(var(--width-container) + var(--padding-container) * 2);
+  padding: 0 var(--padding-container);
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    --width-container: 964px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    --width-container: 290px;
+    --padding-container: 15px;
+  }
 }
