@@ -34,11 +34,11 @@
 }
 
 .advantages__subtitle::before {
-  left: -55px;
+  left: -66px;
 }
 
 .advantages__subtitle::after {
-  right: -55px;
+  right: -66px;
 }
 
 .advantages__list {
@@ -83,6 +83,19 @@
     font-size: 20px;
   }
 
+  .advantages__subtitle::before,
+  .advantages__subtitle::after {
+    width: 40px;
+  }
+
+  .advantages__subtitle::before {
+    left: -62px;
+  }
+
+  .advantages__subtitle::after {
+    right: -62px;
+  }
+
   .advantages__description {
     font-size: 16px;
   }
@@ -116,6 +129,20 @@
   .advantages__subtitle {
     margin-bottom: 26px;
     font-size: 16px;
+  }
+
+  .advantages__subtitle::before,
+  .advantages__subtitle::after {
+    width: 20px;
+    height: 1px;
+  }
+
+  .advantages__subtitle::before {
+    left: -42px;
+  }
+
+  .advantages__subtitle::after {
+    right: -42px;
   }
 
   .advantages__description {
