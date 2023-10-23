@@ -42,13 +42,17 @@
 }
 
 @media (max-width: 1024px) {
+  .promo__container {
+    max-width: 754px;
+  }
+
   .promo__title {
     margin-bottom: 27.57px;
     font-size: 40px;
   }
 
   .promo__description {
-    margin-bottom: 60.43px;
+    margin-bottom: 55px;
     font-size: 18px;
   }
 }

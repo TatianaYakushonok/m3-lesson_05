@@ -163,6 +163,10 @@
 }*/
 
 @media (max-width: 1024px) {
+  .advantages__content {
+    margin-bottom: 59.46px;
+  }
+
   .advantages__title {
     margin-bottom: 23px;
     font-size: 32px;
@@ -187,6 +191,7 @@
   }
 
   .advantages__description {
+    max-width: 666px;
     font-size: 16px;
   }
 
