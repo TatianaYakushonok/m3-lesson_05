@@ -83,6 +83,7 @@
 
 @media (max-width: 420px) {
   .form__fieldset {
+    min-width: 290px;
     margin-bottom: 45px;
     gap: 15px;
   }
@@ -97,7 +98,7 @@
   }
 
   .form__btn {
-    padding: 10px 26px;
+    padding: 10px 30px;
     font-size: 16px;
   }
 }

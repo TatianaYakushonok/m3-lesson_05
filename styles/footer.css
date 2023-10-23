@@ -50,11 +50,16 @@
 
 @media (max-width: 540px) {
   .footer {
-    padding: 25px 0 75px;
+    padding: 25px 0 71px;
   }
 
   .footer__column_logo {
     order: 1;
+  }
+
+  .footer__logo {
+    width: 30px;
+    height: 30px;
   }
 
   .footer__column_develop {
@@ -70,5 +75,13 @@
 
   .footer__column_contacts {
     order: 2;
+  }
+
+  .footer__copyright {
+    font-size: 9px;
+  }
+
+  .footer__column_develop {
+    font-size: 12px;
   }
 }
