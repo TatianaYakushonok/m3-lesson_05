@@ -1,7 +1,5 @@
 .promo {
-  padding: 218px 0 120px;
   text-align: center;
-  background: -webkit-linear-gradient(90deg, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../img/bg-promo.jpg') center/cover no-repeat;
 }
 
 .promo__container {
@@ -9,6 +7,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
 }
 
 .promo__title {
@@ -20,7 +19,7 @@
 }
 
 .promo__description {
-  margin-bottom: 90px;
+  margin-bottom: 84.62px;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.75);
 }
@@ -43,10 +42,6 @@
 }
 
 @media (max-width: 1024px) {
-  .promo {
-    padding: 156px 0 70px;
-  }
-
   .promo__title {
     margin-bottom: 27.57px;
     font-size: 40px;
@@ -59,10 +54,6 @@
 }
 
 @media (max-width: 420px) {
-  .promo {
-    padding: 110px 0 65px;
-  }
-
   .promo__title {
     margin-bottom: 23px;
     font-size: 20px;

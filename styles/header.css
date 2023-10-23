@@ -1,24 +1,28 @@
 .header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: transparent;
-  z-index: 999;
-  padding: 40px 0;
+  padding: 40px 0 120px;
   color: #fff;
-  background-color: transparent;
+  background: -webkit-linear-gradient(90deg, rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url('../img/bg-promo.jpg') center/cover no-repeat;
 }
 
 .header__container {
   display: flex;
+  flex-direction: column;
+}
+
+.header__contacts-container {
+  display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 120px;
 }
 
 @media (max-width: 1024px) {
   .header {
-    padding: 28px 0;
+    padding: 26px 0 70px;
+  }
+
+  .header__contacts-container {
+    margin-bottom: 70px;
   }
 
   .header__logo {
@@ -29,7 +33,11 @@
 
 @media (max-width: 420px) {
   .header {
-    padding: 15px 0;
+    padding: 15px 0 65px;
+  }
+
+  .header__contacts-container {
+    margin-bottom: 65px;
   }
 
   .header__logo {

@@ -12,10 +12,16 @@
 
 .contact__title {
   margin-bottom: 17px;
+  margin-right: 25px;
 }
 
 .contact__subtitle {
   margin-bottom: 50px;
+}
+
+.contact__politic {
+  font-size: 20px;
+  line-height: normal;
 }
 
 @media (max-width: 1024px) {
@@ -26,6 +32,10 @@
 
   .contact__subtitle {
     font-size: 20px;
+  }
+
+  .contact__politic {
+    font-size: 17px;
   }
 }
 
@@ -42,5 +52,9 @@
   .contact__subtitle {
     margin-bottom: 35px;
     font-size: 12px;
+  }
+
+  .contact__politic {
+    font-size: 11px;
   }
 }
